@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11 - Escalação de Time</title>
+
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <h1>Exercício 11 - Escalação de Time</h1>
+
+    <form id="formulario">
+        <label for="inputNumero">Número do jogador: </label>
+        <input type="text" id="inputNumero" name="inputNumero">
+        <br><br>
+
+        <label for="inputNome">Nome do jogador: </label>
+        <input type="text" id="inputNome" name="inputNome">
+        <br><br>
+
+        <label for="inputPosicao">Posição do jogador: </label>
+        <input type="text" id="inputPosicao" name="inputPosicao">
+        <br><br>
+
+        <button type="button" onclick="escalarJogador()">Escalar Jogador</button>
+        <hr><br>
+
+        <label for="inputRemoverNumero">Número do jogador que deseja remover do time: </label>
+        <input type="text" id="inputRemoverNumero" name="inputRemoverNumero">
+        <br><br>
+
+        <button type="button" onclick="removerJogador()">Remover Jogador</button>
+        <hr><br>
+
+        <div id="divJogadoresEscalados" style="background-color: gray;"></div>
+    </form>
+</body>
+
+</html>
